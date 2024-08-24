@@ -1,0 +1,109 @@
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* navbar */
+.section1{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 55px;
+    color: rgb(25, 25, 25);
+    
+    width: 80%;
+
+
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    gap: 70px;
+}
+
+nav h1{
+    font-size: 25px;
+}
+nav h4{
+    
+    font-weight: 500;
+
+}
+
+
+nav button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+/* page */
+
+.page1{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.page2{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.page3{
+
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.marquee-wrapper{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.marquee-wrapper .marquee h5{
+    font-size: 50px;
+    transform: translateX(-100%);
+    
+}
+
+.marquee{
+    display: flex;
+
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+
+.box1{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    height: 15vh;
+}
+
+
